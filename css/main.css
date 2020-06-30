@@ -1,0 +1,127 @@
+/***** Base Styles *****/
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000
+}
+
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 368px;
+    float: left;
+    overflow: auto;
+}
+
+/***** Header and Navigation Menu *****/
+header {
+    height: 400px;
+}
+header h1 {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    line-height: 23px;
+    color: #77a466;
+    margin: 40px 0 40px 5px;
+}
+header span {
+    color: black;
+}
+nav {
+    float: right;
+    padding: 25px 5px 25px 0;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #77a466;
+    padding-left: 10px;
+}
+header img {
+    position: center;
+    width: 1200px;
+    border-top: 3px solid #77a466;
+    border-bottom: 3px solid #77a466;
+}
+
+/***** ABOUT *****/
+#about h2 {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    color: #77a466;
+}
+#about p {
+    font-size: 16px;
+    line-height: 25px;
+    padding: 0 0 25px 0;
+}
+
+/***** MENU, REVIEWS, AND LOCATIONS *****/
+h3 {
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 25px;
+}
+#menu {
+    height: 210px;
+    border-style: solid;
+    border-width: 2px 2px 2px 0;
+    border-color: #dedbdc;
+    padding: 10px 0 0 0;
+}
+#menu ul li {
+    font-size: 16px;
+    line-height: 38px;
+    color: #77a466;
+    list-style-type: none;
+    list-style-position: outside;
+    margin: 0 0 0 -40px;
+}
+#reviews {
+    height: 210px;
+    border-style: solid;
+    border-width: 2px 0 2px 0;
+    border-color: #dedbdc;
+    padding: 10px 30px 0 30px;
+}
+#reviews p {
+    line-height: 21px;
+}
+#locations {
+    height: 210px;
+    border-style: solid;
+    border-width: 2px 0 2px 2px;
+    border-color: #dedbdc;
+    padding: 10px 0 0 30px;
+}
+#locations p {
+    line-height: 24px;
+}
+
+/***** FOOTER *****/
+h4 {
+    text-align: center;
+    padding: 34px 0 34px 0;
+    text-transform: uppercase;
+}
+h4 span {
+    font-family: 'Galada', cursive;
+    color: #77a466;
+    text-transform: lowercase;
+}
